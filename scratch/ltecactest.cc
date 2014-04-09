@@ -32,8 +32,8 @@ NS_LOG_COMPONENT_DEFINE ("LteCacTest");
 int
 main (int argc, char *argv[])
 {	
-	uint16_t ueNum = 4;
-	uint16_t ueLimit = 3;
+	uint16_t ueNum = 15;
+	uint16_t ueLimit = 10;
 	
 	/* This will instantiate some common objects (e.g., the Channel object) and 
 	 * provide the methods to add eNBs and UEs and configure them.
